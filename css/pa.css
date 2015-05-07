@@ -1,9 +1,8 @@
 /**
 * @author  ceffectz
-* @version 2.0
+* @version 3.0
 * @website www.ceffectz.com
 */
-
 
 /*
 ----------------------------------------------
@@ -397,13 +396,13 @@ footer {
     background-color: #F8F8F8;
 }
 .youtube {
-margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 .youtube-v {
-width: 100%;
+    width: 100%;
     height: 330px;
-position: relative;
-top: 2px;
+    position: relative;
+    top: 2px;
 }
 .player {
     margin-bottom: 30px;
@@ -476,6 +475,108 @@ top: 2px;
 }
 /*
 ----------------------------------------------
+                    MEMBER 2
+----------------------------------------------
+*/
+
+.mem-h {
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    word-spacing: 6px;
+}
+.mem-h2 {
+    color: #ff871c;
+    font-weight: 600;
+    margin: 0;
+    margin-top: -10px;
+}
+.mem2-cont1 {
+    background: url('../img/member-layer.png') no-repeat center center transparent;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.mem-quote {
+    background: url(../img/q-left.png) no-repeat 10% -1px, url(../img/q-right.png) no-repeat 92% 62px;
+    padding: 5px 0;
+    margin-top: -5px;
+}
+.mem2-fn-b {
+    width: 47.45%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.mem2-ln-b {
+    width: 47.45%;
+    display: inline-block;
+}
+.mem2-pho {
+    width: 20.5%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.mem2-pho2 {
+    width: 74.2%;
+    display: inline-block;
+}
+.mem2-fo-b {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+.mem2-inp {
+    border: 1px solid #b9b8b8;
+    height: 45px;
+    border-radius: 2px;
+}
+.mem2-subb2 {
+    margin-top: 15px;
+}
+.btn-mem2submit {
+    background-color: #ff871c;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.mem2-pla-p {
+    padding: 15px;
+}
+.mem-pp {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.mem-pp2 {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 600;
+    margin-left: -2px;
+    margin-top: -18px;
+}
+.mem2-b2 {
+    text-align: center;
+    margin: 30px auto 40px;
+}
+.mem2-b2>p {
+    color: #ff871c;
+    font-size: 22px;
+    font-weight: 400;
+}
+.mem2-b2>p>span {
+    font-weight: 600;
+}
+.youtube-v2 {
+    width: 100%;
+    height: 280px;
+}
+/*
+----------------------------------------------
                     RESPONSIVE
 ----------------------------------------------
 */
@@ -538,18 +639,57 @@ top: 2px;
         margin-top: -5px;
     }
     .youtube-v {
-    margin-bottom: 100px;
+        margin-bottom: 100px;
     }
     .youtube-hom-v {
-width: 100%;
-height: 276px;
-position: relative;
-top: 28px;
-}
-    
+        width: 100%;
+        height: 276px;
+        position: relative;
+        top: 28px;
+    }
+    .mem2-fn-b {
+        width: 100%;
+        margin-right: 0;
+        display: block;
+    }
+    .mem2-ln-b {
+        width: 100%;
+        display: block;
+    }
+    .mem2-pho {
+        width: 20%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .mem2-pho2 {
+        width: 72%;
+        display: inline-block;
+    }
+    .mem-pp {
+        font-size: 26px;
+    }
+    .mem-pp2 {
+        font-size: 34px;
+        margin: -5px auto 20px;
+    }
+    .mem-quote {
+        background: transparent;
+    }
+    .mem2player {
+        width: 100%;
+    }
+    .mem-h {
+        line-height: 60px;
+    }
 }
 /* Tab */
 
+@media (min-width: 380px) and (max-width: 767px) {
+    .mem2-mob {
+        width: 360px;
+        margin: 0 auto;
+    }
+}
 @media (min-width: 768px) and (max-width: 992px) {
     .mac {
         background: url('../img/macbook.png') no-repeat center center;
@@ -579,15 +719,48 @@ top: 28px;
     .qo-lft:before {
         height: 180px;
     }
-    
-       .youtube-hom-v {
-width: 100%;
-height: 260px;
-position: relative;
-top: 28px;
-padding-right: 35px;
-padding-left: 34px;
-}
+    .youtube-hom-v {
+        width: 100%;
+        height: 260px;
+        position: relative;
+        top: 28px;
+        padding-right: 35px;
+        padding-left: 34px;
+    }
+    .mem2-fn-b {
+        width: 100%;
+        margin-right: 0;
+        display: block;
+    }
+    .mem2-ln-b {
+        width: 100%;
+        display: block;
+    }
+    .mem2-pho {
+        width: 20%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .mem2-pho2 {
+        width: 72%;
+        display: inline-block;
+    }
+    .mem-pp {
+        font-size: 13px;
+    }
+    .mem-pp2 {
+        font-size: 22px;
+        margin: -5px auto 20px;
+    }
+    .mem-quote {
+        background: transparent;
+    }
+    .mem2player {
+        height: 350px;
+    }
+    .youtube-v2 {
+        height: 350px;
+    }
 }
 /* Desktop */
 
@@ -599,13 +772,41 @@ padding-left: 34px;
         background-size: 440px 340px;
     }
     .youtube-hom-v {
-   width: 100%;
-height: 254px;
-position: relative;
-top: 28px;
-padding-right: 83px;
-padding-left: 37px;
-}
+        width: 100%;
+        height: 254px;
+        position: relative;
+        top: 28px;
+        padding-right: 83px;
+        padding-left: 37px;
+    }
+    .mem2-fn-b {
+        width: 46%;
+        display: inline-block;
+        margin-right: 18px;
+    }
+    .mem2-ln-b {
+        width: 46%;
+        display: inline-block;
+    }
+    .mem2-pho {
+        width: 20%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .mem2-pho2 {
+        width: 73%;
+        display: inline-block;
+    }
+    .mem-pp {
+        font-size: 15px;
+    }
+    .mem-pp2 {
+        font-size: 23px;
+        margin: -5px auto 20px;
+    }
+    .mem-quote {
+        background: url(../img/q-left.png) no-repeat 2% -1px, url(../img/q-right.png) no-repeat 100% 62px;
+    }
 }
 /* Desktop  & Large Screen*/
 
@@ -619,16 +820,18 @@ padding-left: 37px;
         position: relative;
         top: 4px;
     }
-   
+    .mem2player {
+        height: 280px;
+        width: 100%;
+    }
 }
-
-@media (min-width:1200px) {
- .youtube-hom-v {
-    width: 100%;
-    height: 256px;
-    position: relative;
-    top: 28px;
-    padding-right: 77px;
-    padding-left: 52px;
-}
+@media (min-width: 1200px) {
+    .youtube-hom-v {
+        width: 100%;
+        height: 256px;
+        position: relative;
+        top: 28px;
+        padding-right: 77px;
+        padding-left: 52px;
+    }
 }
